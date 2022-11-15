@@ -1,0 +1,24 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+var answer = floor(random(1, 5));
+var integer = round(answer);
+
+if (answer < 2) {
+    text("never", 176, 200);
+    text("happening", 159, 229); 
+}
+else if (answer < 3){
+    fill(288, 143, 247);
+    text(" maybe", 165, 230);
+}
+else if (answer < 4){
+    fill(247, 91, 91);
+    text(" never", 170, 230);
+}
+else if (answer<= 5) {
+    fill(3, 252, 86);
+    text("100%", 170, 215);
+}
